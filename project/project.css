@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav{
+    min-height: 10vh;
+    background-color: rgb(23, 25, 25);
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    padding: 20px;
+    list-style-type: none;
+}
+
+.icon{
+    padding: 20px;
+    color: rgb(201, 175, 29);
+    
+}
+
+.icon h3{
+    float: right;
+    padding-left: 10px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+
+.middle{
+    min-height: 80vh;
+}
+
+.footer{
+    min-height: 10vh;
+    background-color: antiquewhite;
+    padding: 8px;
+}
+
+.home{
+    
+        background-color: aqua;
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+        animation-name: test;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+        
+    }
+    
+    @keyframes test {
+        0%{
+            background-image: url("https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg");
+            
+        }
+        50%{
+            background-image: url("https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg?size=626&ext=jpg&ga=GA1.2.1899992081.1695575658&semt=ais");
+            
+        }
+        100%{
+            background-image: url("https://img.freepik.com/free-photo/restaurant-luxury-interior-design-dark-lightning_114579-2492.jpg?size=626&ext=jpg&ga=GA1.1.1899992081.1695575658&semt=ais");
+            
+            
+        }
+    }
+
+.text{
+    text-align: center;
+    
+    top: 80%;
+    left: 30%;/*
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2nTq2b7kiJcxYM1usJLnTxe1Tr24Xg0Zp_Q&usqp=CAU");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    */
+    color: gold;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    
+}
+
+h1{
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ0DfW-2PAe8Ni9VCGVcsyNy9zmbbgdwlvhRfO2_p1wg&s");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom:20px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+
+p{
+    font-family: cursive;
+}
+
+
+.about{
+    background-color: #D8B4F8;
+    padding: 80px;
+}
+
+.menu{
+    background-color: #FFC7EA;
+    padding:50px;
+}
+
+.menuimages{
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+    text-align-last:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menuimages img{
+    border: 1px solid black;
+    height: 320px;
+    width: 220px;
+    border-radius: 15%;
+}
+
+.offers{
+    background-color: #C4B0FF;
+    padding: 100px;
+   
+}
+
+.offersbox{
+    display: flex;
+    padding-top: 35px;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+.box p{
+    color: darkred;
+}
+
+.orders{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #efa0cf;
+}
+
+.sample1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.title{
+    height: 150px;
+    width: 500px;
+}
+
+.contact{
+    background-color: rgb(202, 236, 236);
+    padding: 40px;
+}
+
+.b1{
+    width: 250px;
+    margin: 30px;
+    height: 130px;
+    border: 3px solid black;
+    background-color: rgb(141, 216, 216);
+}
+
+.contactbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.b1 p,.title p,.footer p{
+    text-align:center;
+}
+
+
+
